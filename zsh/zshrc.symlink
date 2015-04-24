@@ -1,6 +1,9 @@
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
+# the modules folder we can `m [tab]` to
+export MODULES=~/projects/modules
+
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Code
 
