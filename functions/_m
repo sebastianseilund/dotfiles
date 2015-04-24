@@ -1,0 +1,4 @@
+#compdef m
+_files -W $MODULES -/
+
+# See further documentation in `functions/m`.
