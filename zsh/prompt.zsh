@@ -77,6 +77,10 @@ set_prompt () {
 }
 
 precmd() {
-  title "zsh" "%m" "%55<...<%~"
+  termtitle precmd
   set_prompt
+}
+
+preexec() {
+  termtitle preexec "${(V)1}"
 }
