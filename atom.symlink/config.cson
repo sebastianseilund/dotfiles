@@ -1,21 +1,22 @@
 "*":
   editor:
-    showIndentGuide: true
     fontFamily: "Menlo"
     fontSize: 15
     invisibles: {}
+    tabLength: 4
+    showIndentGuide: true
+    softTabs: false
   core:
     ignoredNames: [
       ".bundle"
       ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
+      ".DS_Store"
+      ".idea"
+      ".sass-cache"
     ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "atom-light-ui"
+      "atom-light-syntax"
     ]
     hideGitIgnoredFiles: true
     disabledPackages: [
@@ -35,3 +36,15 @@
     viewedVersion: "0.89.0"
   autosave:
     enabled: true
+  "autocomplete-plus":
+    fileBlacklist: [
+      "*.md"
+    ]
+  "fuzzy-finder":
+    preserveLastSearch: true
+  "tree-view":
+    hideIgnoredNames: true
+".ruby.source":
+  editor:
+    softWrap: true
+    tabLength: 2
